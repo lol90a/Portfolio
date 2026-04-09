@@ -8,7 +8,7 @@
     "build": "npx vite build",
     "preview": "npx vite preview",
     "postinstall": "chmod +x node_modules/.bin/vite"
-}
+  },
   "dependencies": {
     "@emotion/react": "11.14.0",
     "@emotion/styled": "11.14.1",
@@ -64,14 +64,13 @@
     "sonner": "2.0.3",
     "tailwind-merge": "3.2.0",
     "tw-animate-css": "1.3.8",
-    "vaul": "1.1.2"
+    "vaul": "1.1.2",
     "vite": "6.3.5"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.12",
     "@vitejs/plugin-react": "4.7.0",
-    "tailwindcss": "4.1.12",
-    
+    "tailwindcss": "4.1.12"
   },
   "peerDependencies": {
     "react": "18.3.1",
@@ -89,5 +88,8 @@
     "overrides": {
       "vite": "6.3.5"
     }
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
